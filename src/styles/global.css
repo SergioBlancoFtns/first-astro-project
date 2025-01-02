@@ -9,6 +9,11 @@ html {
     max-width: 80ch;
     padding: 1rem;
     line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
   }
   
   * {
